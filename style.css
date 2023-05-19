@@ -1,0 +1,39 @@
+/* Crear una página web con un formulario que permita: 1-Al usuario ingresar un
+conjunto de números separados por comas, y al presionar un botón se muestre el
+promedio de dichos números. La función calcularPromedio se encarga de realizar
+el cálculo y mostrar el resultado en la página.   -Calcular Factorial de un
+numero. Dado un input de numero cuando el usuario introduza un numero y presione
+el boton calcular. Se mostrara el factorial de ese numero en la página.*/
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  padding: 2px 10px;
+  border: 1px solid rgb(179, 104, 108);
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 15px;
+  height: 38px;
+  background-color: rgb(6, 85, 14);
+  cursor: pointer;
+  border: 1px solid rgb (179, 184, 188);
+  color: white;
+  border-radius: 6px;
+  padding: 3px 20px;
+}
+
+button:hover {
+  background-color: rgb(116, 222, 127);
+}
+
+.calculatorImage {
+  width: 15%;
+  height: 10%;
+}
