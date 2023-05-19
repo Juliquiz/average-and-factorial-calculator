@@ -3,29 +3,46 @@
   <head>
     <title>Calculadora de promedio</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Calculadora de promedio</h1>
+    <img
+      src="calculation-color-icon-complex-math-calculations-robot-holding-calculator-robotic-process-automation-isolated-illustration-vector.jpg"
+      alt="Imagen de calculos matematicos"
+      class="calculatorImage"
+    />
+    <h1>Calculadora de Promedio</h1>
     <form>
       <label for="numbers">Ingresa los números separados por comas:</label
       ><br />
-      <input type="text" id="numbers" name="numbers" /><br />
       <input
+        type="text"
+        id="numbers"
+        name="numbers"
+        required
+        placeholder="Aqui deberia introducir numeros separados por , "
+      /><br />
+      <button
         type="button"
         value="Calcular Promedio"
         onclick="calcularPromedio()"
-      />
+      >
+        Calcular Promedio
+      </button>
     </form>
     <div id="resultado"></div>
     <h1>Calculadora de Factorial</h1>
     <form>
       <label for="number">Ingresa un número:</label><br />
       <input type="number" id="number" name="number" /><br />
-      <input
-        type="button"
+      <button
+        type="submit"
         value="Calcular Factorial"
         onclick="calcularFactorial()"
-      />
+      >
+        Calcular Factorial
+      </button>
+      <p class="resultado"></p>
     </form>
   </body>
 </html>
