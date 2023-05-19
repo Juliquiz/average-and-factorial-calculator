@@ -14,6 +14,8 @@ function calcularPromedio() {
 
   let average = sum / count;
   document.getElementById('resultado').innerHTML = 'El promedio es: ' + average;
+  
+   alert('El calculo es: ' + numbersArray);
 }
 
 function calcularFactorial() {
