@@ -1,2 +1,2 @@
-# average-and-factorial-calculator
-an average and factorial calculator
+# Average-and-factorial-calculator
+An average and factorial calculator
